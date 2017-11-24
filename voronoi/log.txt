@@ -1,0 +1,24 @@
+Generating 64000 stipples.
+Options: Black stipples, Non-overlapping stipples, Variable radius, Subpixel density of 5
+Current Displacement: 1.30219
+Iteration 1 completed in 1.51879 seconds.
+Current Displacement: 0.552408
+Iteration 2 completed in 1.4638 seconds.
+Current Displacement: 0.351213
+Iteration 3 completed in 1.43855 seconds.
+Current Displacement: 0.260085
+Iteration 4 completed in 1.42552 seconds.
+Current Displacement: 0.207792
+Iteration 5 completed in 1.4207 seconds.
+Current Displacement: 0.173626
+Iteration 6 completed in 1.44236 seconds.
+Current Displacement: 0.149593
+Iteration 7 completed in 1.42721 seconds.
+Current Displacement: 0.131945
+Iteration 8 completed in 1.44325 seconds.
+Current Displacement: 0.118309
+Iteration 9 completed in 1.43637 seconds.
+Current Displacement: 0.107436
+Iteration 10 completed in 1.41028 seconds.
+Current Displacement: 0.0984164
+Iteration 11 completed in 1.41006 seconds.

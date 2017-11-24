@@ -1,0 +1,8 @@
+#!/bin/bash
+for i in 1000 2000 4000 8000 16000 32000 64000 128000
+do
+		echo -ne "   #### testing " $i "\n"
+# hedcuter [-n #_of_disks -radius disk_radius -uniform_radius 
+#            -iteration #_of_CVT_iterations -maxD max_CVF_site_displacement] image_file_name
+		hedcuter -n $i -radius 10 images/Abraham_Lincoln_November_1863.png
+done
