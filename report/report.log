@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 NOV 2017 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 NOV 2017 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,6 +182,38 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks31
+\float@box=\box31
+\@float@everytoks=\toks32
+\@floatcapt=\box32
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+\c@ContinuedFloat=\count104
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count105
+\c@subtable=\count106
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -239,14 +271,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen117
-\Hy@linkcounter=\count103
-\Hy@pagecounter=\count104
+\@linkdim=\dimen124
+\Hy@linkcounter=\count107
+\Hy@pagecounter=\count108
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count105
+\Hy@SavedSpaceFactor=\count109
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -268,12 +300,12 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count106
+\c@Hy@tempcnt=\count110
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen118
-\Fld@menulength=\count107
-\Field@Width=\dimen119
-\Fld@charsize=\dimen120
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count111
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -283,52 +315,52 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count108
-\c@Item=\count109
-\c@Hfootnote=\count110
+\Hy@abspage=\count112
+\c@Item=\count113
+\c@Hfootnote=\count114
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count111
-\c@bookmark@seq@number=\count112
+\Fld@listcount=\count115
+\c@bookmark@seq@number=\count116
 \Hy@SectionHShift=\skip50
 )
-\c@theorem=\count113
+\c@theorem=\count117
 
 (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen121
-\scratchbox=\box31
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen122
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count118
+\scratchdimen=\dimen128
+\scratchbox=\box33
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen129
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -344,7 +376,10 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box34
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
@@ -354,7 +389,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 56.
+Package hyperref Info: Link coloring ON on input line 58.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -362,51 +397,243 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count120
+\c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
 
 (./report.out) (./report.out)
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
- (./report.bbl (./report.brf)
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<pix/Abraham_Lincoln_November_1863.png, id=55, 1336.995pt x 1650.165pt>
+File: pix/Abraham_Lincoln_November_1863.png Graphic file (type png)
+
+<use pix/Abraham_Lincoln_November_1863.png>
+Package pdftex.def Info: pix/Abraham_Lincoln_November_1863.png used on input li
+ne 86.
+(pdftex.def)             Requested size: 234.87749pt x 289.8911pt.
+
+<pix/2-1_hc_differences.png, id=57, 327.1422pt x 423.0204pt>
+File: pix/2-1_hc_differences.png Graphic file (type png)
+
+<use pix/2-1_hc_differences.png>
+Package pdftex.def Info: pix/2-1_hc_differences.png used on input line 96.
+(pdftex.def)             Requested size: 234.87749pt x 303.70952pt.
+ [2 <./pix/Abraham_Lincoln_November_1863.png>]
+<pix/hc_AL_1000_r1.png, id=66, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_1000_r1.png Graphic file (type png)
+
+<use pix/hc_AL_1000_r1.png>
+Package pdftex.def Info: pix/hc_AL_1000_r1.png used on input line 107.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_2000_r1.png, id=67, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_2000_r1.png Graphic file (type png)
+
+<use pix/hc_AL_2000_r1.png>
+Package pdftex.def Info: pix/hc_AL_2000_r1.png used on input line 111.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_4000_r1.png, id=68, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_4000_r1.png Graphic file (type png)
+
+<use pix/hc_AL_4000_r1.png>
+Package pdftex.def Info: pix/hc_AL_4000_r1.png used on input line 115.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_8000_r1.png, id=69, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_8000_r1.png Graphic file (type png)
+
+<use pix/hc_AL_8000_r1.png>
+Package pdftex.def Info: pix/hc_AL_8000_r1.png used on input line 119.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_1000_r5.png, id=70, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_1000_r5.png Graphic file (type png)
+
+<use pix/hc_AL_1000_r5.png>
+Package pdftex.def Info: pix/hc_AL_1000_r5.png used on input line 123.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_2000_r5.png, id=71, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_2000_r5.png Graphic file (type png)
+
+<use pix/hc_AL_2000_r5.png>
+Package pdftex.def Info: pix/hc_AL_2000_r5.png used on input line 127.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_4000_r5.png, id=72, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_4000_r5.png Graphic file (type png)
+
+<use pix/hc_AL_4000_r5.png>
+Package pdftex.def Info: pix/hc_AL_4000_r5.png used on input line 131.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_8000_r5.png, id=73, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_8000_r5.png Graphic file (type png)
+
+<use pix/hc_AL_8000_r5.png>
+Package pdftex.def Info: pix/hc_AL_8000_r5.png used on input line 135.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_1000_r10.png, id=74, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_1000_r10.png Graphic file (type png)
+
+<use pix/hc_AL_1000_r10.png>
+Package pdftex.def Info: pix/hc_AL_1000_r10.png used on input line 139.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_2000_r10.png, id=75, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_2000_r10.png Graphic file (type png)
+
+<use pix/hc_AL_2000_r10.png>
+Package pdftex.def Info: pix/hc_AL_2000_r10.png used on input line 143.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_4000_r10.png, id=76, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_4000_r10.png Graphic file (type png)
+
+<use pix/hc_AL_4000_r10.png>
+Package pdftex.def Info: pix/hc_AL_4000_r10.png used on input line 147.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/hc_AL_8000_r10.png, id=77, 1336.995pt x 1650.165pt>
+File: pix/hc_AL_8000_r10.png Graphic file (type png)
+
+<use pix/hc_AL_8000_r10.png>
+Package pdftex.def Info: pix/hc_AL_8000_r10.png used on input line 151.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+ [3 <./pix/2-1_hc_differences.png>]
+<pix/vr_AL_1000_r1.png, id=84, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_1000_r1.png Graphic file (type png)
+
+<use pix/vr_AL_1000_r1.png>
+Package pdftex.def Info: pix/vr_AL_1000_r1.png used on input line 161.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_2000_r1.png, id=85, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_2000_r1.png Graphic file (type png)
+
+<use pix/vr_AL_2000_r1.png>
+Package pdftex.def Info: pix/vr_AL_2000_r1.png used on input line 165.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_4000_r1.png, id=86, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_4000_r1.png Graphic file (type png)
+
+<use pix/vr_AL_4000_r1.png>
+Package pdftex.def Info: pix/vr_AL_4000_r1.png used on input line 169.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_8000_r1.png, id=87, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_8000_r1.png Graphic file (type png)
+
+<use pix/vr_AL_8000_r1.png>
+Package pdftex.def Info: pix/vr_AL_8000_r1.png used on input line 173.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_1000_r5.png, id=88, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_1000_r5.png Graphic file (type png)
+
+<use pix/vr_AL_1000_r5.png>
+Package pdftex.def Info: pix/vr_AL_1000_r5.png used on input line 177.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_2000_r5.png, id=89, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_2000_r5.png Graphic file (type png)
+
+<use pix/vr_AL_2000_r5.png>
+Package pdftex.def Info: pix/vr_AL_2000_r5.png used on input line 181.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_4000_r5.png, id=90, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_4000_r5.png Graphic file (type png)
+
+<use pix/vr_AL_4000_r5.png>
+Package pdftex.def Info: pix/vr_AL_4000_r5.png used on input line 185.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_8000_r5.png, id=91, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_8000_r5.png Graphic file (type png)
+
+<use pix/vr_AL_8000_r5.png>
+Package pdftex.def Info: pix/vr_AL_8000_r5.png used on input line 189.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_1000_r10.png, id=92, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_1000_r10.png Graphic file (type png)
+
+<use pix/vr_AL_1000_r10.png>
+Package pdftex.def Info: pix/vr_AL_1000_r10.png used on input line 193.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_2000_r10.png, id=93, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_2000_r10.png Graphic file (type png)
+
+<use pix/vr_AL_2000_r10.png>
+Package pdftex.def Info: pix/vr_AL_2000_r10.png used on input line 197.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_4000_r10.png, id=94, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_4000_r10.png Graphic file (type png)
+
+<use pix/vr_AL_4000_r10.png>
+Package pdftex.def Info: pix/vr_AL_4000_r10.png used on input line 201.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+
+<pix/vr_AL_8000_r10.png, id=95, 1336.995pt x 1650.165pt>
+File: pix/vr_AL_8000_r10.png Graphic file (type png)
+
+<use pix/vr_AL_8000_r10.png>
+Package pdftex.def Info: pix/vr_AL_8000_r10.png used on input line 205.
+(pdftex.def)             Requested size: 93.94955pt x 115.9514pt.
+ [4 <./pix/hc_AL_1000_r1.png> <./pix/hc_AL_2000_r1.png> <./pix/hc_AL_4000_r1.pn
+g> <./pix/hc_AL_8000_r1.png> <./pix/hc_AL_1000_r5.png> <./pix/hc_AL_2000_r5.png
+> <./pix/hc_AL_4000_r5.png> <./pix/hc_AL_8000_r5.png> <./pix/hc_AL_1000_r10.png
+> <./pix/hc_AL_2000_r10.png> <./pix/hc_AL_4000_r10.png> <./pix/hc_AL_8000_r10.p
+ng>] (./report.bbl (./report.brf)
 \tf@brf=\write5
 \openout5 = `report.brf'.
 
- [1
+ [5 <./pix/vr_AL_1000_r1.png> <./pix/vr_AL_2000_r1.png> <./pix/vr_AL_4000_r1.pn
+g> <./pix/vr_AL_8000_r1.png> <./pix/vr_AL_1000_r5.png> <./pix/vr_AL_2000_r5.png
+> <./pix/vr_AL_4000_r5.png> <./pix/vr_AL_8000_r5.png> <./pix/vr_AL_1000_r10.png
+> <./pix/vr_AL_2000_r10.png> <./pix/vr_AL_4000_r10.png> <./pix/vr_AL_8000_r10.p
+ng>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
- (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+(./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 94E182B46A913FCA0DB09BFEA8CC1F15;702.
 Package rerunfilecheck Info: File `report.brf' has not changed.
-(rerunfilecheck)             Checksum: D28B8B59186057422EAA988E09C6CD1C;136.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+(rerunfilecheck)             Checksum: 2814ED5E5520E7DA1538F971E2906BDD;68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  ) 
 Here is how much of TeX's memory you used:
- 6583 strings out of 493089
- 94404 string characters out of 6134842
- 184991 words of memory out of 5000000
- 9989 multiletter control sequences out of 15000+600000
+ 7825 strings out of 493089
+ 117732 string characters out of 6134842
+ 206974 words of memory out of 5000000
+ 11183 multiletter control sequences out of 15000+600000
  5804 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,28p,857b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,857b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (2 pages, 65859 bytes).
+Output written on report.pdf (6 pages, 8701344 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,6 +8,8 @@
 \usepackage{wrapfig}
 \usepackage{pseudocode}
 \usepackage{url}
+\usepackage{float}
+\usepackage{subcaption}
 \usepackage[backref, colorlinks=true, citecolor=red, urlcolor=blue, pdfauthor={Jyh-Ming Lien}]{hyperref}
 
 
@@ -77,7 +79,142 @@ The stippling method invoked by the hedcuter places a variably sized disk, cente
 \section{Comparison of the two methods}
 After compilation of both stippling methods, various test cases were run to compare each methods effectiveness as a stippling method. Those results shall be discussed here.
 
+A single image was used to allow for simple comparrison of the significant variables of interest. The image, seen in Figure \ref{fig:AbrahamLincoln}, is a grayscale PNG-format  image of Abraham Lincoln, America's 16th president, from the year 1865. Unless otherwise noted, this image was used for all variations.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{pix/Abraham_Lincoln_November_1863.png}
+	\caption{Abraham Lincoln, 1865.}
+	\label{fig:AbrahamLincoln}
+\end{figure}
+
 \subsection{Multipass Results}
+To determine if there are any statistically significant variations in running the same program on the same image multiple times, a script was written to test this condition. For VM, the results of each run using 4000 points, subpixel density 5, non-overlapping, andvariable radius were extremely consistent. Minor variations in the duration of the runs were seen. Over 5 runs, times ranged from 56.78 seconds for
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{pix/2-1_hc_differences.png}
+	\caption{Pixel placement differences between hedcuter runs.}
+	\label{fig:differences1}
+\end{figure}
+
+Figure \ref{fig:differences1} shows the pixel differences between different hedcuter runs.
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_1000_r1.png}
+		\caption{1000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_2000_r1.png}
+		\caption{2000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_4000_r1.png}
+		\caption{4000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_8000_r1.png}
+		\caption{8000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_1000_r5.png}
+		\caption{1000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_2000_r5.png}
+		\caption{2000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_4000_r5.png}
+		\caption{4000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_8000_r5.png}
+		\caption{8000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_1000_r10.png}
+		\caption{1000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_2000_r10.png}
+		\caption{2000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_4000_r10.png}
+		\caption{4000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/hc_AL_8000_r10.png}
+		\caption{8000px, r=10}
+	\end{subfigure}
+	\caption{Hedcuter images varying number of disks. Radius = 1.}
+	\label{fig:hc_points1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_1000_r1.png}
+		\caption{1000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_2000_r1.png}
+		\caption{2000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_4000_r1.png}
+		\caption{4000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_8000_r1.png}
+		\caption{8000px, r=1}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_1000_r5.png}
+		\caption{1000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_2000_r5.png}
+		\caption{2000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_4000_r5.png}
+		\caption{4000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_8000_r5.png}
+		\caption{8000px, r=5}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_1000_r10.png}
+		\caption{1000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_2000_r10.png}
+		\caption{2000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_4000_r10.png}
+		\caption{4000px, r=10}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{pix/vr_AL_8000_r10.png}
+		\caption{8000px, r=10}
+	\end{subfigure}
+	\caption{Hedcuter images varying number of disks. Radius = 1.}
+	\label{fig:vc_points1}
+\end{figure}
+
+
+
+
+
+
+
 
 \subsection{Variations on Number of Disks}
 
