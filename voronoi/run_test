@@ -1,6 +1,6 @@
 #!/bin/bash
-for i in 1000 2000 4000 8000 16000 32000 64000
+for i in 1000 2000 4000 8000
 do
 		echo -ne "   #### testing " $i "\n"
-		vs -s $i -l -n images/Abraham_Lincoln_November_1863.png "output/AL_"$i"_n.svg"
+		vs -s $i -l -n -p 1 images/Abraham_Lincoln_November_1863.png "output/r1/AL_"$i"_n.svg"
 done

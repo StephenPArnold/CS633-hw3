@@ -133,7 +133,8 @@ std::auto_ptr<Voronoi::StipplingParameters> parseArguments( int argc, char *argv
 			throw runtime_error("Sizing factor parameter must be greater than 0.");
 		}
 		params->sizingFactor = vm["sizing-factor"].as<float>();
-		if (vm["subpixels"].as<int>() <= 1) {
+		//if (vm["subpixels"].as<int>() <= 1) {
+		if (vm["subpixels"].as<int>() < 1) {	
 			throw runtime_error("Sub-pixel density parameter must be greater than or equal to 1.");
 		}
 		params->subpixels = (unsigned int)vm["subpixels"].as<int>();

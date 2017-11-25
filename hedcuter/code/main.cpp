@@ -34,8 +34,8 @@ int main(int argc, char ** argv)
 	}
 
 	Hedcut hedcut;
-	//bool debug = false;                //output debugging information
-	bool debug = true;
+	bool debug = false;                //output debugging information
+	//bool debug = true;
 	int sample_size = 1000;
 
 	string img_filename;
@@ -77,6 +77,7 @@ int main(int argc, char ** argv)
 	{
 		if (!hedcut.gpu)
 		{
+			cout << "Trying to display original image." << endl;
 			cv::namedWindow("Input image", cv::WINDOW_AUTOSIZE);// Create a window for display.
 			imshow("Input image", image);                       // Show our image inside it.
 		}
@@ -85,6 +86,7 @@ int main(int argc, char ** argv)
 	//
 	//compute hedcut
 	//
+	cout << "Entering hedcut" << endl;
 
 	if (hedcut.build(image, sample_size) == false)
 		cerr << "! Error: Failed to build hedcut. Sorry." << endl;

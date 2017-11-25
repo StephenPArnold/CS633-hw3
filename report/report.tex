@@ -58,30 +58,34 @@
 \lecture{Voronoi Stippling Report}{Fall 2017}{Stephen Arnold - G00864316}{CS633 - Computational Geometry}
 
 \section{Summary of the two methods}
-
-\subsection{hedcuter method}
-Algorithm for computing the Voronoi Diagram
-
-Centroidal Voronoi Tessellation (CVT)
-
-Stippling Method
-
-Text here \cite{Secord:2002:WVS:508530.508537}
-
-
+In this introductory section, the methods and algorithms employed by the two stippling techniques shall be reviewed.
 
 \subsection{voronoi method}
-Algorithm for computing the Voronoi Diagram
+The provided implementation of Voronoi Stippling makes use of Fortune's Algorithm for the calculation of the Voronoi Cells. Initially, the input parameters are read in and stored. Next, an initial random distribution of points is created within the boundaries of the original image. These data points are the initial configuration stored in the stippler data structure.
 
-Centroidal Voronoi Tessellation (CVT)
+Using an iterative approach, a Voronoi Diagram is created from the set of inital points using Fortune's Algorithm. Next, the applied stipples are redistributed and the displacement from the new locations to the previous centroids is calculated. This process is repeated until the average change in displacements across all cell meets a minimum threshold. Once the centroids have settled, the image is stippled by placing circles of appropriate size centered at the centroids.
 
-Stippling Method
+\subsection{hedcuter method}
+Using an iterative approach, the hedcuter stippler uses simple rejection sampling to generate an initial distribution of points, or centroids, within the confines of a given image. The algorithm compares the grayscale value of the randomly selected location within the image and applies a gaussian scaling factor. The point is either accepted or rejected based on satisfying a predetermined threshold. Once the inital points are determined, a set of right cones are generated with apexes at the cell generator. Initially the cones have equal height. Each cone is also assigned a unique "color" to identify it later. The intersection of the cones in the z-direction will determine to which cone the pixels of the original image belong. In this way, the pixels are assigned a unique value which determines to which Voronoi Cell the pixels belong.
 
-Text here \cite{Secord:2002:WVS:508530.508537}
+The weighted Centroidal Voronoi Tessellation (CVT) used by the hedcuter algorithm makes use of a density function to distribute, and realign, the centroids of the Voronoi Diagram. Darker areas (lines, edges, etc.) are assigned a higher density than lighter areas. As the algorithm iterates through the image, centroids tend to migrate towards higher density regions.
 
+The stippling method invoked by the hedcuter places a variably sized disk, centered at the centroid of the cell. Two options exist within the code: uniformly sized disks and variably-sized disks. Various levels of gray may be obtained by uniform-sized disks at varoius spacing densities or by varying the sizes o fthe placed disks. Colored disks may also be used in conjunction to create various tones. \cite{Secord:2002:WVS:508530.508537}
 
+***** uses precomputed stipple "tiles" to fill a Voronoi cell. Each pixel in the image is examined and an appropriate stipple patern applied 
 
 \section{Comparison of the two methods}
+After compilation of both stippling methods, various test cases were run to compare each methods effectiveness as a stippling method. Those results shall be discussed here.
+
+\subsection{Multipass Results}
+
+\subsection{Variations on Number of Disks}
+
+\subsection{Variations on Speed with Number of Disks}
+
+\subsection{Differences in image type}
+
+\subsection{Differences from WSJ Hedcuts}
 
 \section{Improvement of hedcuter method}
 

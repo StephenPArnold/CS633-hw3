@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2017 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 NOV 2017 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report
+**report.tex
 (./report.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -376,37 +376,37 @@ LaTeX Info: Redefining \nameref on input line 56.
 \tf@brf=\write5
 \openout5 = `report.brf'.
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E114179386AE22BDCA80B8B597E90E0F;317.
+(rerunfilecheck)             Checksum: 94E182B46A913FCA0DB09BFEA8CC1F15;702.
 Package rerunfilecheck Info: File `report.brf' has not changed.
 (rerunfilecheck)             Checksum: D28B8B59186057422EAA988E09C6CD1C;136.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 6572 strings out of 493089
- 94248 string characters out of 6134842
- 181991 words of memory out of 5000000
- 9984 multiletter control sequences out of 15000+600000
+ 6583 strings out of 493089
+ 94404 string characters out of 6134842
+ 184991 words of memory out of 5000000
+ 9989 multiletter control sequences out of 15000+600000
  5804 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,28p,234b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,28p,857b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (1 page, 58452 bytes).
+Output written on report.pdf (2 pages, 65859 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
