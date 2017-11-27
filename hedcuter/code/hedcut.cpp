@@ -105,6 +105,8 @@ void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 {
 	cv::Mat grayscale;
 	cv::cvtColor(img, grayscale, CV_BGR2GRAY);
+	// added
+	cv::RNG rng_uniform(time(NULL));
 
 	disks.clear();
 
@@ -131,7 +133,14 @@ void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 		HedcutDisk disk;
 		disk.center.x = cell.site.y; //x = col
 		disk.center.y = cell.site.x; //y = row
+		//disk.color = (black_disk) ? cv::Scalar::all(0) : cv::Scalar(r, g, b, 0.0);
+
+		// generate random colors
+		r = (int)floor(255*rng_uniform.uniform(0.f, 1.f));
+		g = (int)floor(255*rng_uniform.uniform(0.f, 1.f));
+		b = (int)floor(255*rng_uniform.uniform(0.f, 1.f));
 		disk.color = (black_disk) ? cv::Scalar::all(0) : cv::Scalar(r, g, b, 0.0);
+
 		disk.radius = (uniform_disk_size) ? disk_size : (100 * disk_size / (avg_v + 100));
 
 		//remember

@@ -1,6 +1,11 @@
 #!/bin/bash
-for i in 1 2 3 4 5
+for i in 1000 2000 4000 8000
 do
-		echo -ne "   #### testing " $i "\n"
-		vs -s 4000 -l -n images/Abraham_Lincoln_November_1863.png "output/multi/AL_4000_"$i".svg"
+	for j in 1 5 10
+		do
+			echo -ne "   #### testing " $i "\n"
+			vs -s $i -f -z $j -n images/Abraham_Lincoln_November_1863.png "output/var/vr_AL_"$i"_var_r"$j".svg"
+	done		
 done
+
+# vs -s 8000 -f -z 10 images/Abraham_Lincoln_November_1863.png output/multi/vr_AL_8000_r10_fixed.svg

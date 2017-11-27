@@ -1,6 +1,6 @@
-\BOOKMARK [1][-]{section.1}{Summary of the two methods}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{voronoi method}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{hedcuter method}{section.1}% 3
+\BOOKMARK [1][-]{section.1}{Summary of the Two Methods}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Voronoi Method}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Hedcuter Method}{section.1}% 3
 \BOOKMARK [1][-]{section.2}{Comparison of the two methods}{}% 4
 \BOOKMARK [2][-]{subsection.2.1}{Multipass Results}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.2}{Variations on Number of Disks}{section.2}% 6
@@ -8,3 +8,6 @@
 \BOOKMARK [2][-]{subsection.2.4}{Differences in image type}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.5}{Differences from WSJ Hedcuts}{section.2}% 9
 \BOOKMARK [1][-]{section.3}{Improvement of hedcuter method}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Distribution of Disks}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Improve efficiency}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Colorful Disks}{section.3}% 13

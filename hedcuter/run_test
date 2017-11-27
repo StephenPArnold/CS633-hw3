@@ -1,8 +1,9 @@
 #!/bin/bash
-for i in {1..5}
+for i in 8000
 do
 		echo -ne "   #### testing " $i "\n"
 # hedcuter [-n #_of_disks -radius disk_radius -uniform_radius 
 #            -iteration #_of_CVT_iterations -maxD max_CVF_site_displacement] image_file_name
-		hedcuter -n 4000 -radius 5 images/Abraham_Lincoln_November_1863.png
+		hedcuter -n $i images/bowtie.png
+		mv "bowtie-"$i".svg" "output/hc_bowtie-"$i".svg"
 done

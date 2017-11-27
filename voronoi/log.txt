@@ -1,102 +1,102 @@
 Generating 4000 stipples.
-Options: Black stipples, Non-overlapping stipples, Variable radius, Subpixel density of 5
+Options: Black stipples, Non-overlapping stipples, Fixed radius, Subpixel density of 5
 Current Displacement: 5.27895
-Iteration 1 completed in 1.21211 seconds.
+Iteration 1 completed in 1.10406 seconds.
 Current Displacement: 2.25847
-Iteration 2 completed in 1.15338 seconds.
+Iteration 2 completed in 1.06867 seconds.
 Current Displacement: 1.43287
-Iteration 3 completed in 1.1614 seconds.
+Iteration 3 completed in 1.06754 seconds.
 Current Displacement: 1.05313
-Iteration 4 completed in 1.14853 seconds.
+Iteration 4 completed in 1.05045 seconds.
 Current Displacement: 0.841109
-Iteration 5 completed in 1.17143 seconds.
+Iteration 5 completed in 1.05199 seconds.
 Current Displacement: 0.709083
-Iteration 6 completed in 1.16179 seconds.
+Iteration 6 completed in 1.05012 seconds.
 Current Displacement: 0.617037
-Iteration 7 completed in 1.17048 seconds.
+Iteration 7 completed in 1.04703 seconds.
 Current Displacement: 0.546341
-Iteration 8 completed in 1.16098 seconds.
+Iteration 8 completed in 1.04249 seconds.
 Current Displacement: 0.489756
-Iteration 9 completed in 1.11881 seconds.
+Iteration 9 completed in 1.03622 seconds.
 Current Displacement: 0.443535
-Iteration 10 completed in 1.13492 seconds.
+Iteration 10 completed in 1.03601 seconds.
 Current Displacement: 0.405284
-Iteration 11 completed in 1.15545 seconds.
+Iteration 11 completed in 1.0407 seconds.
 Current Displacement: 0.373258
-Iteration 12 completed in 1.12917 seconds.
+Iteration 12 completed in 1.03015 seconds.
 Current Displacement: 0.345769
-Iteration 13 completed in 1.14528 seconds.
+Iteration 13 completed in 1.03298 seconds.
 Current Displacement: 0.322121
-Iteration 14 completed in 1.13713 seconds.
+Iteration 14 completed in 1.03629 seconds.
 Current Displacement: 0.301883
-Iteration 15 completed in 1.13615 seconds.
+Iteration 15 completed in 1.06665 seconds.
 Current Displacement: 0.284706
-Iteration 16 completed in 1.13095 seconds.
+Iteration 16 completed in 1.03838 seconds.
 Current Displacement: 0.269818
-Iteration 17 completed in 1.15444 seconds.
+Iteration 17 completed in 1.03983 seconds.
 Current Displacement: 0.2568
-Iteration 18 completed in 1.12713 seconds.
+Iteration 18 completed in 1.02667 seconds.
 Current Displacement: 0.244959
-Iteration 19 completed in 1.11616 seconds.
+Iteration 19 completed in 1.03319 seconds.
 Current Displacement: 0.234064
-Iteration 20 completed in 1.13666 seconds.
+Iteration 20 completed in 1.02951 seconds.
 Current Displacement: 0.224039
-Iteration 21 completed in 1.13082 seconds.
+Iteration 21 completed in 1.0241 seconds.
 Current Displacement: 0.21444
-Iteration 22 completed in 1.13085 seconds.
+Iteration 22 completed in 1.02899 seconds.
 Current Displacement: 0.205725
-Iteration 23 completed in 1.14459 seconds.
+Iteration 23 completed in 1.03428 seconds.
 Current Displacement: 0.197533
-Iteration 24 completed in 1.14759 seconds.
+Iteration 24 completed in 1.03149 seconds.
 Current Displacement: 0.190181
-Iteration 25 completed in 1.15679 seconds.
+Iteration 25 completed in 1.04717 seconds.
 Current Displacement: 0.183339
-Iteration 26 completed in 1.12321 seconds.
+Iteration 26 completed in 1.02342 seconds.
 Current Displacement: 0.177037
-Iteration 27 completed in 1.14346 seconds.
+Iteration 27 completed in 1.0278 seconds.
 Current Displacement: 0.170767
-Iteration 28 completed in 1.11077 seconds.
+Iteration 28 completed in 1.02218 seconds.
 Current Displacement: 0.164727
-Iteration 29 completed in 1.12456 seconds.
+Iteration 29 completed in 1.0218 seconds.
 Current Displacement: 0.159169
-Iteration 30 completed in 1.14693 seconds.
+Iteration 30 completed in 1.02704 seconds.
 Current Displacement: 0.154226
-Iteration 31 completed in 1.13784 seconds.
+Iteration 31 completed in 1.03013 seconds.
 Current Displacement: 0.149364
-Iteration 32 completed in 1.14182 seconds.
+Iteration 32 completed in 1.02354 seconds.
 Current Displacement: 0.14501
-Iteration 33 completed in 1.12445 seconds.
+Iteration 33 completed in 1.03544 seconds.
 Current Displacement: 0.141032
-Iteration 34 completed in 1.12217 seconds.
+Iteration 34 completed in 1.02418 seconds.
 Current Displacement: 0.137471
-Iteration 35 completed in 1.11092 seconds.
+Iteration 35 completed in 1.04362 seconds.
 Current Displacement: 0.134154
-Iteration 36 completed in 1.11376 seconds.
+Iteration 36 completed in 1.0324 seconds.
 Current Displacement: 0.130987
-Iteration 37 completed in 1.09652 seconds.
+Iteration 37 completed in 1.02199 seconds.
 Current Displacement: 0.128119
-Iteration 38 completed in 1.13609 seconds.
+Iteration 38 completed in 1.02338 seconds.
 Current Displacement: 0.125159
-Iteration 39 completed in 1.16001 seconds.
+Iteration 39 completed in 1.01923 seconds.
 Current Displacement: 0.12261
-Iteration 40 completed in 1.14815 seconds.
+Iteration 40 completed in 1.0226 seconds.
 Current Displacement: 0.119848
-Iteration 41 completed in 1.10753 seconds.
+Iteration 41 completed in 1.02113 seconds.
 Current Displacement: 0.117316
-Iteration 42 completed in 1.08348 seconds.
+Iteration 42 completed in 1.01791 seconds.
 Current Displacement: 0.114771
-Iteration 43 completed in 1.10264 seconds.
+Iteration 43 completed in 1.01816 seconds.
 Current Displacement: 0.112105
-Iteration 44 completed in 1.10546 seconds.
+Iteration 44 completed in 1.03254 seconds.
 Current Displacement: 0.109548
-Iteration 45 completed in 1.12451 seconds.
+Iteration 45 completed in 1.0377 seconds.
 Current Displacement: 0.107348
-Iteration 46 completed in 1.13318 seconds.
+Iteration 46 completed in 1.03019 seconds.
 Current Displacement: 0.105235
-Iteration 47 completed in 1.10582 seconds.
+Iteration 47 completed in 1.03219 seconds.
 Current Displacement: 0.103079
-Iteration 48 completed in 1.19965 seconds.
+Iteration 48 completed in 1.02322 seconds.
 Current Displacement: 0.101088
-Iteration 49 completed in 1.10693 seconds.
+Iteration 49 completed in 1.01993 seconds.
 Current Displacement: 0.0992809
-Iteration 50 completed in 1.07262 seconds.
+Iteration 50 completed in 1.01829 seconds.
